@@ -41,17 +41,12 @@ CREATE DATABASE carmen;
 \c carmen
 
 # Load world.sql:
-\i world.sql
+\i path/to/world.sql
 ```
 
-**Pro Tip:** You can do all of this in one shell command:
-
-```sh
-psql -d carmen -f /path/to/world.sql
-```
-
-Next, use the clues in `lib/clues.sql` to create the appropriate SQL queries to
-help you find Carmen. Finally, tell us where she's heading!
+Next, use the clues in [`lib/clues.sql`](lib/clues.sql) to create the
+appropriate SQL queries to help you find Carmen. Finally, tell us where she's
+heading!
 
 ## Additional Resources
 
