@@ -48,6 +48,8 @@ Next, use the clues in [`lib/clues.sql`](lib/clues.sql) to create the
 appropriate SQL queries to help you find Carmen. Finally, tell us where she's
 heading!
 
+You can write your SQL queries directly in the `clues.sql` file. Then, from within the `psql` CLI just execute the file with `\i lib/clues.sql`
+
 ## Additional Resources
 
 - [PostgreSQL tutorial](http://www.tutorialspoint.com/postgresql/)
