@@ -42,6 +42,7 @@ CREATE DATABASE carmen;
 
 # Load world.sql:
 \i path/to/world.sql
+# (replace /path/to/world.sql with the actual path to the file)
 ```
 
 Next, use the clues in [`lib/clues.sql`](lib/clues.sql) to create the
